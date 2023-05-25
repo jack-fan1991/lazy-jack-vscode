@@ -1,0 +1,38 @@
+// A launch configuration that launches the extension inside a new window
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+	"version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Jack Flutter",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceFolder}/**/*.js",
+                "!**/node_modules/**"
+            ],
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}/packages/lazy_jack_flutter_extension",
+                "--extensionDevelopmentPath=${workspaceFolder}/packages/lazy_jack_vscode_utils"
+            ]
+        },
+        {
+            "name": "Flavor Magic",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js",
+                "!**/node_modules/**"
+            ],
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}/packages/lazy_jack_flutter_flavor_magic"
+            ]
+        },
+        
+    ]
+}
