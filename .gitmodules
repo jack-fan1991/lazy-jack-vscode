@@ -1,0 +1,9 @@
+[submodule "packages/lazy_jack_vscode_utils"]
+	path = packages/lazy_jack_vscode_utils
+	url = git@github.com:jack-fan1991/lazy-jack-vscode-utils.git
+[submodule "packages/lazy_jack_flutter_flavor_magic"]
+	path = packages/lazy_jack_flutter_flavor_magic
+	url = git@github.com:jack-fan1991/lazy-jack-flutter-flavor-magic.git
+[submodule "packages/lazy_jack_flutter_extension"]
+	path = packages/lazy_jack_flutter_extension
+	url = git@github.com:jack-fan1991/lazy-jack-flutter-extension.git
